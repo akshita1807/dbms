@@ -176,10 +176,10 @@ Updation Anamoly-When we want to update single piece of data,so we have to do it
 
 Data redundancy and anomalies takes place when data is not normalized.So to avoid this ,normalisation came into action
 
-# Normalisation
+# Normalization
 Normalization in the context of Database Management Systems (DBMS) is a process of organizing and structuring a relational database to reduce data redundancy and improve data integrity.The goal of normalization is to design a database schema that minimizes data anomalies and ensures that data is stored in an organized and efficient manner.Normalization divides the larger table into smaller and links them using relationships.
 
-Types of Normalisation:
+Types of Normalization:
 
 **1NF**-A table is referred to as being in its First Normal Form if atomicity of the table is 1.
 Here, atomicity states that a single cell cannot hold multiple values. It must hold only a single-valued attribute.
@@ -200,11 +200,11 @@ The second condition is that there should be no transitive dependency for non-pr
 Table must be in 3NF
 if have a functional dependency X → Y. In the particular functional dependency, X has to be the part of the super key of the provided table.
 
-# Disadvantages of Normalisation
+# Disadvantages of Normalization
 It is very time-consuming and difficult to normalize relations of a higher degree.  
 Careless decomposition may lead to a bad database design, leading to serious problems.  
 
-# DeNormalisation
+# DeNormalization
 The process of taking a normalized schema and making it non-normalized is called denormalization.Denormalization is a database optimization technique in which we add redundant data to one or more tables. This can help us avoid costly joins in a relational database.Denormalization is the process of intentionally introducing redundancy into a relational database by combining tables or incorporating redundant data. This contrasts with the normalization process, where the goal is to reduce redundancy and dependencies. 
 
 # Indexing
