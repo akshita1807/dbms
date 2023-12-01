@@ -302,7 +302,7 @@ Locks are of two tyes:
 A view in SQL is a virtual table that is based upon the result-set of an SQL statement.A view will also have rows and columns just like a real table in a database.Simply a view is nothing but a stored SQL Query.A view can contain all the rows of a table or specific rows based on some condition.SQL functions conditions and join statements to a view and present the data just like the data is produced from a single table.
 They are of two types-simple views and complex views
 
-# NVL
+# NVL-NULL VALUE LOCATOR
 The NVL function allows you to replace null values with a specified default value. The syntax of the NVL function is as follows:
 
 NVL(expr1, expr2)
