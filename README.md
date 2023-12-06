@@ -265,7 +265,8 @@ It happens when a transaction reads a set of rows that match a certain condition
 for eg: T1-Reads a set of rows from a certain table based on a condition (e.g., a range of values).
 T2-Inserts new rows or deletes existing rows that satisfy the same condition used by Transaction A. It will create a problem
 
-**Scheduling**-is a process of lining the transactions and executing them one by one. When there are multiple transactions that are running in a concurrent manner and the order of operation is needed to be set so that the operations do not overlap each other, Scheduling is brought into play.The sequence of operation is called schedule.
+# Scheduling
+is a process of lining the transactions and executing them one by one. When there are multiple transactions that are running in a concurrent manner and the order of operation is needed to be set so that the operations do not overlap each other, Scheduling is brought into play.The sequence of operation is called schedule.
 It is of two types-
 
 serial schedules-serial schedule is one in which no transaction starts until a running transaction has ended are called serial schedules.
